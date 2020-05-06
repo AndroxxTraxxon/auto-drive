@@ -57,7 +57,7 @@ if __name__ == "__main__":
     world = game.World(canvas)
     load_points(None)
     last_time = time.time()
-
+    time.sleep(0.01)
     while True:
         try:
             this_time = time.time()
